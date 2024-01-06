@@ -1,0 +1,25 @@
+
+.weekdays-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    text-align: center;
+}
+.weekdays {
+    list-style: none;
+    color: rgb(202, 37, 77);
+    font-size: 1.5em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width: 100%;
+    height: 85%;
+    text-align: center;
+}

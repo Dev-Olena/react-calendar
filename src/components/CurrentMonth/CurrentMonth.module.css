@@ -1,0 +1,10 @@
+.month-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 2em 1em 1em;
+    box-sizing: border-box;
+    background-color: white;
+}

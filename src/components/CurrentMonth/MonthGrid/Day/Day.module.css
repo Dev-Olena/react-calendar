@@ -1,0 +1,26 @@
+.day {
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hidden{
+    visibility: hidden;
+}
+.number {
+    color: rgb(183, 183, 183);
+
+}
+.number:hover {
+    background-color: rgb(57, 206, 195);
+    color: white;
+}
+
+.current {
+    color: rgb(202, 37, 77);
+    border: 5px solid rgb(202, 37, 77);
+    border-radius: 50%;
+}
